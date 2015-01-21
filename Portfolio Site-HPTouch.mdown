@@ -1,0 +1,87 @@
+Portfolio Site
+==============
+
+#Do it in Ruby?
+with jekyll? No comments?
+
+>Hey Nathaniel! I've got a couple side projects going that are half serious and half for me to learn certain gems like Kaminari for pagination, gmaps4rails / Geocoder for mapped locations, etc. but nothing I am ready to share with the world just yet.
+I am in a similar position as you as I want to make a blog for myself to show a little of what I know and discuss the issues I encounter in Rails. I've been looking for a good overview of what all goes into a blog but so far I've only found very simplistic guides. Here is what I've came up with as far as necessities:
+
+    Users/Admin - Devise
+    User Roles (only if you want to have users for commenting) - Pundit
+    Comments (In addition to your own users or as an alternative to Pundit) - Disqus_API (or just hack in it manually - I haven't played with this gem yet.)
+    Pagination - Kaminari
+    RSS - Here's a post I found that supposedly addresses setting up a RSS feed based on your Post object: http://techoctave.com/c7/posts/32-create-an-rss-feed-in-rails
+    Images - Paperclip
+    WYSIWYG Editor - TinyMCE-Rails
+
+>From there, really you just need your Post object (and comment if you are rolling your own comment system). If you are rolling your own comment system, keep in mind that you may want to comment on comments so that is going to complicate your comment object's ActiveRecord association and require a polymorphic association (If you are wanting to keep it easy, Disqus is looking sexier by the minute, huh?).
+I think that covers most of the nuts and bolts. Now we just need some lipstick for the pig. Check out Startbootstrap.com and Wrapbootstrap.com for some options but keep in mind these tempaltes are rarely (never) a "Drop in and it works" solution, rather a shortcut to rolling your own full css skin.
+That should about cover it, at least as far as I've thought it through. All this comes with the standard disclaimer that I've not completed this project so any or all of this may explode violently when combined. And as a last word, I would be remiss if I did not ask if this is for someone who isn't you and may possibly not be a centerpiece of your portfolio, why not just Wordpress it? Always remember the old adage "Just because we can, doesn't necessarily mean we should!"
+
+----
+
+
+# I can host it on github personal pages.
+
+# Github
+[](https://news.ycombinator.com/item?id=7599475)
+if you do want me to care about your github profile I'd rather see signs of enthusiasm in the form of personal gists or projects or thoughtful bug reports or feature tickets on other projects.
+
+# Resume
+Key to emphasize my past as a passionate coder not one of these people just looking for a good salary!
+
+"All of this is a bit unfair to bootcamps. They may well be the fastest way to learn, and the curriculum may be top notch, but for me personally it's a negative signal. I would be more impressed with a candidate who saved their money and spent 3 months teaching themselves to code using on-line resources. 
+"
+## Childhood:
+First one in town on the internet 
+One of largest TMBG pages etc.
+Responsible for my high school's first website
+Computer Camp
+...
+Treasury web thing!
+GNVPC
+
+
+# [](https://teamtreehouse.com/forum/employers-asking-for-my-portfolio-of-web-designdevelopment-work)
+
+I want to display more than a bunch of Hello World projects, so I'm going to focus the next month or so on searching oDesk and other sites and solving real world problems that people are looking to solve. If you want to go a step farther you could also bid for a few projects on sites like oDesk and do a bunch of those for super cheap to build your Porfirio.
+
+What about charity organisations? Maybe those are good candidate for delivering mockup projects?
+
+Find and solve some real problems for real companies, and put those projects in your portfolio. Stack your portfolio with they type of projects you really want to work on as a career
+This sounds like you are promoting unsolicited redesigns. This bit offers some great advice on those:
+
+  The issue with most unsolicited redesigns that are published is that the goal is not to solve problems...it's to make it look "better".
+
+source: http://branch.com/b/unsolicited-redesigns
+
+Also this article is worth a read:
+
+http://www.erickarjaluoto.com/blog/keep-your-unsolicited-redesign-to-yourself/
+
+>Cap Watkins
+An anecdote: During my phone screen with Amazon, the creative director of my team asked me what I would change about the Amazon homepage.
+After a few moments of thinking it over, I said, "You know, honestly, I could b.s. about the color scheme or typography or lack of whitespace... but to be totally honest, you guys are known for being data-driven and running tons of experiments. I have no doubt you've optimized the hell out of that page, so any answer I give you will honestly be pretty useless and uninformed." 
+Got the job.
+-----
+StackOverflow freelancing - Canadian Luke
+
+>As a freelancer and a client, I look for a 'genuine' person.
+  Don't hide behind a silly company name
+  Put your picture everywhere, doing all kinds of things.
+  Whatever you link to or reference, make sure it's updated/still live/has no bugs. Most portfolios are complete junk, and there's no reason for it.
+  If you have a Facebook/Twitter/Blog/etc, keep them up to date; otherwise, don't reference them, or close your accounts.
+  If you had all what I just mentioned, you would have been the only one while I was searching for someone to start on a project.
+Best of luck. Just remember, go all in, or don't play at all.
+
+>What I did before was make sample pages for friends of the family, and a couple volunteer organisations I belonged to. It was all under the impression that they only paid if they used my designs, but accept that it's just a start. I could at least get some styles that I could do. That portfolio should be online though on your personal website, so potential customers can see your skill, design, and technique. 
+Again, just make designs, no matter who for, and make sure they show your best talents
+
+----
+[](http://blog.teamtreehouse.com/5-tips-creating-perfect-web-design-portfolio)
+Edit Yourself
+
+At first, it might seem like you want to showcase everything you’ve ever done so that you can demonstrate your breadth of skill. This is usually a mistake; less is more.
+
+Instead, it’s better to create a potent mix of your best work. When people are looking for a designer, they don’t have time to dig through hundreds of portfolios and then subsequently dig through all of your work. Impressions are formed instantly, so a small selection of quality should be front and center. Your portfolio should still be you, but only the best you.
